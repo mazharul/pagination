@@ -1,11 +1,6 @@
-Author:Maz
-Version:1.0
+Author: Maz
+Version: 1.0
+Copyright: Copyright (C) 2010 Maz
 
 This is a jQuery plugin for pagination with example php and html script. PHP and tml scripts are based on smarty and I am so lazy to make a normal script :P. Feel free to modify and use on your any project :) 
 
-#!/usr/bin/env python
-
-"""A small wrapper file for parsing ReST files at GitHub."""
-
-__author__ = "Jannis Leidel"
-__copyright__ = "Copyright (C) 2008 Jannis Leidel"
