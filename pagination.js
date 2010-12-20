@@ -4,7 +4,7 @@
 		
 		// default configuration properties
 		var defaults = {	
-			urlToFetchdata: "/index.php?component=cart&load=view&act=paging&data='testdata'&page=",
+			urlToFetchdata: "/paging.php?act=paging&data='testdata'&page=",
 			totalPage:10
 			
 		}; 
