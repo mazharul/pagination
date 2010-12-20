@@ -1,0 +1,33 @@
+<script type="text/javascript" src="pagination.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){ldelim}
+	$("#paginationItems").paginate({ldelim}
+		urlToFetchdata: "/result.php?act=pagination",
+		totalPage:{$pages}
+	{rdelim});
+{rdelim});
+</script>
+
+<!-- ajax result holder div -->
+<div id="paginationItems">
+{*ajax results holder*}
+</div>
+
+<!--pagination-->
+    {if $pages >1}
+    <div class="pagination-container" style="margin: 0 0 0 auto; text-align: right;">
+    <div id="prev" class="disabled">&lt; Prev</div>
+    <ul id="pagination">
+
+    {section name=sec start=1 loop=$pages+1 step=1}
+         <li id='page_{$smarty.section.sec.index}' class="paginationLiClass">{$smarty.section.sec.index}
+        <input class="currentPage" type="hidden" value="{$smarty.section.sec.index}" /></li>
+       <li class="paginationLiDivider">{if $smarty.section.sec.index< $pages}|{else}&nbsp;&nbsp;{/if}</li>
+    {/section}
+    </ul>
+    <div id="next" style="float:left;" class="paginationDiv">Next &gt;</div>
+    <div class="clear"></div>
+    </div>
+    {/if}
+	<div class="clear"></div>
+<!-- /pagination-->
