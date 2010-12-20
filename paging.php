@@ -35,7 +35,7 @@ function Pagination(){
 				$smarty->assign('experiences', $experiences);
 				//$smarty->assign("count", $count);
 				$smarty->assign("page", $page);
-				$smarty->display("originalo/ajax-boxView.html");
+				$smarty->display("example.html");
 			}else{
 				echo "Error";
 			
