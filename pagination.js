@@ -16,9 +16,9 @@
 	function buttonCheck(){
 		var curPage = $(".currentPage").val();
 		
-		//added by Farhan
+		
 		globalCurPage = curPage;
-		//end of added by Farhan
+		
 		
 		var curPageNo = Number(curPage);
 		var totalPage = options.totalPage;
@@ -49,7 +49,7 @@
 	function Display_Load()
 	{
 	    $("#loading").fadeIn(300,0);
-		//$("#loading").html("<img src='/themes/satoo/images/ajax-loader1.gif' />");
+		//$("#loading").html("<img src='/images/ajax-loader1.gif' />");
 	}
 	//Hide Loading Image
 	function Hide_Load()
