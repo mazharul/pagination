@@ -18,8 +18,7 @@ Copyright (C) 2010  Mazharul Anwar(maz@protishobdo.com)
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
     GNU General Public License for more details. 
 
-    You should have received a copy of the GNU General Public License 
-    along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+  see <http://www.gnu.org/licenses/> for full license details  
 #-----------------------------------------------------------------------------------------------*/
 
 This is a jQuery plugin for pagination with example php and html script. PHP and html scripts are based on smarty and I am so lazy to make a normal script :P. Feel free to modify and use on your any project :) 
